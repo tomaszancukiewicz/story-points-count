@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "story-points-count:toggle"
   },
-  "repository": "https://github.com/atom/story-points-count",
+  "repository": "https://github.com/tomaszancukiewicz/story-points-count",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
