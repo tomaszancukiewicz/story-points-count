@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle story-points-count",
+        "command": "story-points-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "story-points-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "story-points-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
