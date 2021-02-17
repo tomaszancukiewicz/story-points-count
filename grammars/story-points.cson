@@ -1,0 +1,16 @@
+name: 'Story Points'
+scopeName: 'source.story-points'
+fileTypes: ['story']
+patterns: [
+  {
+    name: 'punctuation.definition.bold'
+    match: '\\[([0-9\\s]*)\\]\\s*$'
+    captures:
+      1:
+        name: 'constant.other.symbol'
+  }
+  {
+    name: 'keyword.control'
+    match: '^\\s*[\\-\\*]+'
+  }
+]
